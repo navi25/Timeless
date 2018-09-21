@@ -1,7 +1,8 @@
-package io.navendra.timeless
+package io.navendra.timeless.views
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import io.navendra.timeless.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

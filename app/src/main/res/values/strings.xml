@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Timeless</string>
+    <string name="request_permission">"Allow Camera access to this app"</string>
 </resources>
