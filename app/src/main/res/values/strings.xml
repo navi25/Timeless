@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Timeless</string>
+    <string name="perm_grant_msg">Thanks for granting permission!</string>
 </resources>
