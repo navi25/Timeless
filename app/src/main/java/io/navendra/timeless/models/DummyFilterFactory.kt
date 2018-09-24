@@ -14,7 +14,11 @@ object DummyFilterFactory{
     fun getFilters() :List<TimelessFilter>{
         val filters = mutableListOf<TimelessFilter>()
         for(title in titles){
-            filters.add(TimelessFilter(getRandomString(),title, R.drawable.snow))
+            var imageRes = R.drawable.snow
+            if(title == "Izhaar"){
+                imageRes = R.drawable.blur
+            }
+            filters.add(TimelessFilter(getRandomString(),title, imageRes))
         }
         return filters
     }
