@@ -21,12 +21,12 @@ class FiltersAdapter(private val filters:List<TimelessFilter>) : RecyclerView.Ad
 
     override fun onBindViewHolder(holder: FilterViewHolder, pos: Int) {
         val filter = filters[pos]
-        holder!!.image.setImageResource(filter.image)
+        holder.image.setImageResource(filter.image)
         holder.title.text = filter.name
     }
 
     inner class FilterViewHolder(itemView:View) : RecyclerView.ViewHolder(itemView){
-        val title = itemView!!.title
-        val image = itemView!!.image
+        val title = itemView.title
+        val image = itemView.image
     }
 }
